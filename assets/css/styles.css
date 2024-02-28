@@ -1,0 +1,103 @@
+* {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h1 {
+    font-weight: 700;
+}
+h2 {
+    font-weight: 700;
+}
+h3 {
+    font-weight: 700;
+}
+p {
+    font-weight: 400;
+}
+
+/* INICIO ESTILOS NAV */
+nav {
+    background-color: #373A3C;
+}
+
+/* FIN ESTILOS NAV */
+
+
+/* INICIO ESTILOS header */
+header {
+    height: 55vw;
+    min-height: 608px;
+    background-image: url(../img/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 40px;
+    padding-top: 90px;
+}
+
+/* FIN ESTILOS HEADER */
+
+
+/* INICIO ESTILOS SECCIÓN ACERCA DE MÍ */
+#aboutme i {
+    font-size: 70px;
+}
+
+/* FIN ESTILOS SECCIÓN ACERCA DE MÍ */
+
+/*INICIO ESTILOS SECCION MIS TRABAJOS*/
+#myworks {
+    background-color: #17a2b8;
+}
+
+#myworks h2 {
+    width: 100%;
+    font-size: 60px;
+    padding: 10px;
+}
+
+/*FIN ESTILOS SECCION MIS TRABAJOS*/
+
+/*INICIO ESTILOS FORMULARIO*/
+#formulario p {
+    display: flex;
+    text-align: center;
+}
+
+/*FIN ESTILOS FORMULARIO*/
+
+/*INICIO ESTILOS FOOTER*/
+#footer {
+    background-color: #0F0F0F;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+/*FIN ESTILOS FOOTER*/
+
+/* INICIO REGLAS PARA PANTALLAS GRANDES DESKTOP */
+@media (min-width: 768px) {
+    /* MEDIA QUERIES */
+
+    /* INICIO ESTILOS header */
+    header h1 {
+        font-size: 70px;
+    }
+
+    header p {
+        font-size: 30px;
+    }
+
+    .wrapper-contenido-header {
+        padding-left: 15vw;
+    }
+
+    /* FIN ESTILOS header */
+}
+
+/* FIN REGLAS PARA PANTALLAS GRANDES */
